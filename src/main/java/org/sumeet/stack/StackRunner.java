@@ -9,6 +9,7 @@ public class StackRunner {
         stack.push(8);
         stack.push(2);
         stack.push(4);
+        stack.push(4);
 
         stack.show();
 
