@@ -14,6 +14,20 @@ public class TreeRunner {
 
         tree.inOrderTraversal();
 
+        System.out.println();
+
+        BinarySearchTreeWithoutRecursion treeWithoutRecursion = new BinarySearchTreeWithoutRecursion();
+        treeWithoutRecursion.insert(8);
+        treeWithoutRecursion.insert(7);
+        treeWithoutRecursion.insert(12);
+        treeWithoutRecursion.insert(15);
+        treeWithoutRecursion.insert(2);
+        treeWithoutRecursion.insert(5);
+        treeWithoutRecursion.insert(1);
+
+        treeWithoutRecursion.inOrderTraversal();
+
+
     }
 
 
