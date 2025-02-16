@@ -3,6 +3,8 @@ package org.sumeet.tree;
 public class TreeRunner {
 
     public static void main(String[] args) {
+
+//        With Recursion
         BinarySearchTree tree = new BinarySearchTree();
         tree.insert(8);
         tree.insert(7);
@@ -16,6 +18,7 @@ public class TreeRunner {
 
         System.out.println();
 
+//        Without Recursion
         BinarySearchTreeWithoutRecursion treeWithoutRecursion = new BinarySearchTreeWithoutRecursion();
         treeWithoutRecursion.insert(8);
         treeWithoutRecursion.insert(7);
@@ -26,6 +29,8 @@ public class TreeRunner {
         treeWithoutRecursion.insert(1);
 
         treeWithoutRecursion.inOrderTraversal();
+
+
 
 
     }
