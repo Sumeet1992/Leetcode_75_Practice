@@ -2,7 +2,7 @@ package org.sumeet.leetcode.is_subsequence;
 
 public class IsSubsequence {
     public static void main(String[] args) {
-        String s = "ab", t = "baab";
+        String s = "ab", t = "bacb";
         IsSubsequence subsequence = new IsSubsequence();
         System.out.println(subsequence.isSubsequence(s,t));
     }

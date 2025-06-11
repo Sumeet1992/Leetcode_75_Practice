@@ -35,8 +35,9 @@ public class ReverseWordsInAString {
             start++;
             end--;
         }
-
+        System.out.println(Arrays.toString(words));
         String reversedString = words[0];
+        System.out.println("reversed string first word:"+reversedString+"is this.");
         for(int i = 1; i< words.length; i++){
             if(!words[i].isBlank()){
                 reversedString = reversedString + " " +words[i];
