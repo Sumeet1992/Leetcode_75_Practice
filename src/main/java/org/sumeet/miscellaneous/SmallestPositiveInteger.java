@@ -51,6 +51,7 @@ public class SmallestPositiveInteger {
                 i++;
             }
         }
+
         return i;
 
     }
