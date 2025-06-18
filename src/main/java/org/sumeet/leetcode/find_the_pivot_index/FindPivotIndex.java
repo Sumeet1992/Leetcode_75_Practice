@@ -26,15 +26,15 @@ public class FindPivotIndex {
         else if((totalSum-nums[nums.length - 1]) == 0){
             pIndex = nums.length - 1;
         }
-            for(int i = 1; i < nums.length; i++){
-                sumLeft[i] = sumLeft[i-1] + nums[i-1];
-                sumRight[i] = totalSum - sumLeft[i] - nums[i];
-                if(sumLeft[i] == sumRight[i]){
-                    pIndex = i;
-                    break;
-                }
-
+        for(int i = 1; i < nums.length; i++){
+            sumLeft[i] = sumLeft[i-1] + nums[i-1];
+            sumRight[i] = totalSum - sumLeft[i] - nums[i];
+            if(sumLeft[i] == sumRight[i]){
+                pIndex = i;
+                break;
             }
+
+        }
         return pIndex;
     }
 }
